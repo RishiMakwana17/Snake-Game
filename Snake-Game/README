@@ -1,0 +1,9 @@
+Compilation:
+make
+Run:
+./maze <filename>.txt
+
+valgrind used: valgrind --leak-check=full --track-origins=yes ./maze <filename>.txt
+
+file1.txt - text file provided in the assignment outline
+file2.txt - text file created by myself to test to see if program runs on another map 
